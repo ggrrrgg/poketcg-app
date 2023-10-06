@@ -38,7 +38,8 @@ export default function CardSearchByName() {
 
 		apiRequest();
 
-	}, [apiKey, apiKey, pokemonName]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [apiUrl]);
 
 	return (
 		<div>
