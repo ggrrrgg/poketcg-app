@@ -7,7 +7,6 @@ import ApiProvider from './contexts/ApiContext';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CardSearchByName from './pages/CardSearchByName';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
