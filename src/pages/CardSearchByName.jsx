@@ -38,7 +38,7 @@ export default function CardSearchByName() {
 
 		apiRequest();
 
-	}, []);
+	}, [apiKey, apiKey, pokemonName]);
 
 	return (
 		<div>
