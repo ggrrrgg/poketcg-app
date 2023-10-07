@@ -31,6 +31,8 @@ export default function CardSearchByName() {
 				}
 			});
 
+			console.log(response);
+
 			let responseData = await response.json();
 
 			setSearchResults(responseData.data);
